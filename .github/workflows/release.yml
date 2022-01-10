@@ -58,7 +58,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload --clobber "${{ github.ref_name }}" \
+          vsn=$(cat VERSION)
+          gh release upload --clobber "v${vsn}" \
             elixir-otp-${{ matrix.otp }}.zip \
             elixir-otp-${{ matrix.otp }}.zip.sha{1,256}sum
       - name: Get latest stable ExDoc version
@@ -90,6 +91,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload --clobber "${{ github.ref_name }}" \
+          vsn=$(cat VERSION)
+          gh release upload --clobber "v${vsn}" \
             Docs.zip \
             Docs.zip.sha{1,256}sum
