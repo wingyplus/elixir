@@ -21,9 +21,9 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           tag: main-nightly
-          allowUpdates: true
-          draft: false
-          prerelease: true
+          allowUpdates: false
+          draft: true
+          prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
 
   prepare_release:
