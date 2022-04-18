@@ -2,7 +2,7 @@ name: Nightly Release
 
 on: 
   schedule:
-    - cron: "0 0 * * *" # Every night
+    - cron: "0 */1 * * *" # Every night
 
 jobs:
   delete_previous_nightly: 
