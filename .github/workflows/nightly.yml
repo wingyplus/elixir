@@ -18,9 +18,17 @@ jobs:
           tag_name: main-nightly
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions-ecosystem/action-push-tag@v1
-        with:
-          tag: main-nightly
+      - name: push tag
+        run: |
+          set -e
+
+          tag=main-nightly
+
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+          git tag "${tag}"
+          git push origin "${tag}"
 
   prepare_release:
     needs: delete_previous_nightly
