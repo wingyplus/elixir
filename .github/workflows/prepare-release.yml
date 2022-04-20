@@ -29,7 +29,7 @@ jobs:
           - otp: 23
             otp_version: 23.3
           - otp: 24
-            otp_version: 24.1
+            otp_version: 24.3
             build_docs: build_docs
     runs-on: ubuntu-18.04
     steps: 
