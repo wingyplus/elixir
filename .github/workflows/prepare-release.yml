@@ -66,7 +66,7 @@ jobs:
         run: |
           mv ex_doc ../ex_doc
           cd ../ex_doc
-          ../elixir/bin/mix do local.rebar --force, local.hex --force, deps.get, compile
+          ../elixir/bin/mix do local.rebar --force + local.hex --force + deps.get, compile
           cd ../elixir
       - name: Build Docs
         if: ${{ matrix.build_docs }}
