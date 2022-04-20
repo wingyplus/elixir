@@ -18,7 +18,7 @@ jobs:
         run: |
           set -e
 
-          gh release delete main-nightly
+          gh release delete --yes main-nightly || exit 0
       - name: delete and push tag
         run: |
           set -e
