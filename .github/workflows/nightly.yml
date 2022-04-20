@@ -13,6 +13,8 @@ jobs:
           fetch-depth: 50
           ref: main
       - name: delete release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
 
