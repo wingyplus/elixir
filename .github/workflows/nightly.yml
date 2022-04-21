@@ -30,7 +30,7 @@ jobs:
 
           git tag "${tag}"
           # Ensure tag must be delete before create a new one.
-          git push origin ":${tag}"
+          git push origin ":${tag}" || exit 0
           git push origin "${tag}"
 
   prepare_release:
