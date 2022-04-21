@@ -20,18 +20,20 @@ jobs:
 
           gh release delete --yes main-nightly || exit 0
       - name: delete and push tag
-        run: |
-          set -e
-
-          tag=main-nightly
-
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
-          git tag "${tag}"
-          # Ensure tag must be delete before create a new one.
-          git push origin ":${tag}" || exit 0
-          git push origin "${tag}"
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.git.deleteRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/main-nightly"
+            })
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/main-nightly",
+              sha: context.sha
+            })
 
   prepare_release:
     needs: delete_previous_nightly
