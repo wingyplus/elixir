@@ -1,0 +1,61 @@
+name: Release Nightly
+
+on:
+  schedule:
+    # TODO: change to mid-night.
+    - cron: "*/15 * * * *"
+
+env:
+  ELIXIR_OPTS: "--warnings-as-errors"
+  ERLC_OPTS: "warnings_as_errors"
+  LANG: C.UTF-8
+
+jobs:
+  publish_doc:
+    strategy:
+      fail-fast: false
+      matrix:
+        branch:
+          - "main"
+          - "v1.0"
+          - "v1.1"
+          - "v1.2"
+          - "v1.3"
+          - "v1.4"
+          - "v1.5"
+          - "v1.6"
+          - "v1.7"
+          - "v1.8"
+          - "v1.9"
+          - "v1.10"
+          - "v1.11"
+          - "v1.12"
+          - "v1.13"
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: "refs/heads/${{ matrix.branch }}"
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: 24.0
+          elixir-version: 1.13.4
+          version-type: strict
+      - name: Get latest stable ExDoc version
+        run: |
+          EX_DOC_LATEST_STABLE_VERSION=$(curl -s https://hex.pm/api/packages/ex_doc | jq --raw-output '.latest_stable_version')
+          echo "EX_DOC_LATEST_STABLE_VERSION=${EX_DOC_LATEST_STABLE_VERSION}" >> $GITHUB_ENV
+      - uses: actions/checkout@v3
+        with:
+          repository: elixir-lang/ex_doc
+          ref: v${{ env.EX_DOC_LATEST_STABLE_VERSION }}
+          path: ex_doc
+      - name: Build ex_doc
+        run: |
+          mv ex_doc ../ex_doc
+          cd ../ex_doc
+          mix do local.rebar --force, local.hex --force, deps.get, compile
+          cd ../elixir
+      - name: Build Docs
+        run: |
+          make Docs.zip
