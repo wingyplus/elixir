@@ -26,6 +26,7 @@ test_freebsd_task:
     PATH: $PATH:/usr/local/lib/erlang24/bin
 
   install_script:
+    - pkg update -f
     - pkg install -y erlang-runtime24 git gmake
     - rm -rf .git
     - gmake compile
