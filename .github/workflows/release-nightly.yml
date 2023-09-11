@@ -25,7 +25,7 @@ jobs:
             otp_version: 25.0
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         
       - uses: erlef/setup-beam@v1
         with:
@@ -47,7 +47,7 @@ jobs:
     needs: publish_elixir
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         
       - uses: erlef/setup-beam@v1
         with:
@@ -66,7 +66,7 @@ jobs:
         run: |
           EX_DOC_LATEST_STABLE_VERSION=$(curl -s https://hex.pm/api/packages/ex_doc | jq --raw-output '.latest_stable_version')
           echo "EX_DOC_LATEST_STABLE_VERSION=${EX_DOC_LATEST_STABLE_VERSION}" >> $GITHUB_ENV
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: elixir-lang/ex_doc
           ref: v${{ env.EX_DOC_LATEST_STABLE_VERSION }}
