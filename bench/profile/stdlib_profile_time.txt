@@ -1,0 +1,344 @@
+[profile]    240ms compiling +      0ms waiting while compiling lib/atom.ex
+[profile]    290ms compiling +      0ms waiting while compiling lib/agent.ex
+[profile]    332ms compiling +      0ms waiting while compiling lib/application.ex
+[profile]     40ms compiling +      0ms waiting while compiling lib/behaviour.ex
+[profile]     29ms compiling +      0ms waiting while compiling lib/bitwise.ex
+[profile]    486ms compiling +      0ms waiting while compiling lib/access.ex
+[profile]     97ms compiling +     63ms waiting for struct Date while compiling lib/calendar/date_range.ex
+[profile]    129ms compiling +      0ms waiting while compiling lib/calendar/duration.ex
+[profile]    252ms compiling +     59ms waiting for struct Duration while compiling lib/calendar/date.ex
+[profile]    163ms compiling +      0ms waiting while compiling lib/calendar/time.ex
+[profile]    205ms compiling +      0ms waiting while compiling lib/calendar/naive_datetime.ex
+[profile]     24ms compiling +      0ms waiting while compiling lib/calendar/time_zone_database.ex
+[profile]    292ms compiling +    185ms waiting for struct NaiveDateTime while compiling lib/calendar/datetime.ex
+[profile]    338ms compiling +      0ms waiting while compiling lib/code.ex
+[profile]    111ms compiling +      0ms waiting while compiling lib/code/identifier.ex
+[profile]    457ms compiling +      0ms waiting while compiling lib/code/fragment.ex
+[profile]    125ms compiling +      0ms waiting while compiling lib/code/typespec.ex
+[profile]    306ms compiling +      0ms waiting while compiling lib/code/normalizer.ex
+[profile]    119ms compiling +      0ms waiting while compiling lib/collectable.ex
+[profile]     79ms compiling +      0ms waiting while compiling lib/config.ex
+[profile]     98ms compiling +      0ms waiting while compiling lib/config/provider.ex
+[profile]     34ms compiling +     42ms waiting for module Config.Provider while compiling lib/config/reader.ex
+[profile]    113ms compiling +      0ms waiting while compiling lib/dict.ex
+[profile]   1091ms compiling +      0ms waiting while compiling lib/code/formatter.ex
+[profile]    111ms compiling +      0ms waiting while compiling lib/file/stream.ex
+[profile]    137ms compiling +      0ms waiting while compiling lib/float.ex
+[profile]     12ms compiling +      0ms waiting while compiling lib/function.ex
+[profile]     73ms compiling +      0ms waiting while compiling lib/gen_event/stream.ex
+[profile]    100ms compiling +      0ms waiting while compiling lib/gen_server.ex
+[profile]    181ms compiling +    673ms waiting for module GenServer while compiling lib/dynamic_supervisor.ex
+[profile]     82ms compiling +   2548ms waiting for module GenServer while compiling lib/agent/server.ex
+[profile]    181ms compiling +      0ms waiting while compiling lib/hash_dict.ex
+[profile]    147ms compiling +      0ms waiting while compiling lib/hash_set.ex
+[profile]   1238ms compiling +      0ms waiting while compiling lib/exception.ex
+[profile]   2949ms compiling +      0ms waiting while compiling lib/base.ex
+[profile]   1480ms compiling +      0ms waiting while compiling lib/enum.ex
+[profile]     62ms compiling +      0ms waiting while compiling lib/inspect/error.ex
+[profile]    102ms compiling +      0ms waiting while compiling lib/integer.ex
+[profile]     91ms compiling +      0ms waiting while compiling lib/io.ex
+[profile]     95ms compiling +      0ms waiting while compiling lib/io/ansi.ex
+[profile]    522ms compiling +      0ms waiting while compiling lib/inspect.ex
+[profile]     58ms compiling +      0ms waiting while compiling lib/io/stream.ex
+[profile]    547ms compiling +      0ms waiting while compiling lib/inspect/algebra.ex
+[profile]    336ms compiling +      0ms waiting while compiling lib/io/ansi/docs.ex
+[profile]     24ms compiling +      0ms waiting while compiling lib/kernel/error_handler.ex
+[profile]    335ms compiling +      0ms waiting while compiling lib/json.ex
+[profile]     85ms compiling +      0ms waiting while compiling lib/kernel/lexical_tracker.ex
+[profile]     11ms compiling +      0ms waiting while compiling lib/kernel/parallel_require.ex
+[profile]    293ms compiling +      0ms waiting while compiling lib/kernel/cli.ex
+[profile]     62ms compiling +      0ms waiting while compiling lib/kernel/special_forms.ex
+[profile]     83ms compiling +      0ms waiting while compiling lib/kernel/utils.ex
+[profile]    358ms compiling +      0ms waiting while compiling lib/kernel/parallel_compiler.ex
+[profile]    190ms compiling +      0ms waiting while compiling lib/keyword.ex
+[profile]    101ms compiling +      0ms waiting while compiling lib/list/chars.ex
+[profile]    146ms compiling +      0ms waiting while compiling lib/list.ex
+[profile]    525ms compiling +      0ms waiting while compiling lib/kernel/typespec.ex
+[profile]     88ms compiling +      0ms waiting while compiling lib/macro/env.ex
+[profile]    102ms compiling +      0ms waiting while compiling lib/map.ex
+[profile]     84ms compiling +      0ms waiting while compiling lib/map_set.ex
+[profile]    218ms compiling +   2503ms waiting for module MapSet while compiling lib/file.ex
+[profile]   1169ms compiling +      0ms waiting while compiling lib/kernel.ex
+[profile]    145ms compiling +      0ms waiting while compiling lib/module/behaviour.ex
+[profile]    335ms compiling +      0ms waiting while compiling lib/module.ex
+[profile]    216ms compiling +      0ms waiting while compiling lib/module/parallel_checker.ex
+[profile]    238ms compiling +      0ms waiting while compiling lib/module/types.ex
+[profile]    752ms compiling +      0ms waiting while compiling lib/macro.ex
+[profile]    296ms compiling +      0ms waiting while compiling lib/module/types/helpers.ex
+[profile]    493ms compiling +      0ms waiting while compiling lib/module/types/expr.ex
+[profile]    255ms compiling +      0ms waiting while compiling lib/module/types/of.ex
+[profile]     76ms compiling +      0ms waiting while compiling lib/module/types/traverse.ex
+[profile]     26ms compiling +      0ms waiting while compiling lib/node.ex
+[profile]    210ms compiling +      0ms waiting while compiling lib/option_parser.ex
+[profile]    130ms compiling +      0ms waiting while compiling lib/path.ex
+[profile]     35ms compiling +      0ms waiting while compiling lib/port.ex
+[profile]    137ms compiling +      0ms waiting while compiling lib/process.ex
+[profile]    769ms compiling +      0ms waiting while compiling lib/module/types/pattern.ex
+[profile]     73ms compiling +      0ms waiting while compiling lib/range.ex
+[profile]    130ms compiling +      0ms waiting while compiling lib/record.ex
+[profile]    287ms compiling +      0ms waiting while compiling lib/protocol.ex
+[profile]     33ms compiling +      0ms waiting while compiling lib/record/extractor.ex
+[profile]     46ms compiling +     37ms waiting for module Record.Extractor while compiling lib/file/stat.ex
+[profile]                    |   4539ms waiting for module Record while compiling lib/file/stat.ex
+[profile]   1902ms compiling +      0ms waiting while compiling lib/module/types/apply.ex
+[profile]    263ms compiling +   4230ms waiting for module Record while compiling lib/gen_event.ex
+[profile]     45ms compiling +      0ms waiting while compiling lib/set.ex
+[profile]    204ms compiling +      0ms waiting while compiling lib/regex.ex
+[profile]     66ms compiling +      0ms waiting while compiling lib/stream/reducers.ex
+[profile]    131ms compiling +      0ms waiting while compiling lib/string/chars.ex
+[profile]   2324ms compiling +      0ms waiting while compiling lib/module/types/descr.ex
+[profile]    436ms compiling +      0ms waiting while compiling lib/stream.ex
+[profile]     12ms compiling +      0ms waiting while compiling lib/supervisor/default.ex
+[profile]    136ms compiling +      0ms waiting while compiling lib/string_io.ex
+[profile]     33ms compiling +      0ms waiting while compiling lib/supervisor/spec.ex
+[profile]     76ms compiling +      0ms waiting while compiling lib/supervisor.ex
+[profile]    337ms compiling +    307ms waiting for module Supervisor while compiling lib/registry.ex
+[profile]     71ms compiling +   1454ms waiting for module Supervisor while compiling lib/partition_supervisor.ex
+[profile]    183ms compiling +      0ms waiting while compiling lib/task.ex
+[profile]    233ms compiling +      0ms waiting while compiling lib/system.ex
+[profile]    620ms compiling +      0ms waiting while compiling lib/string.ex
+[profile]     25ms compiling +      0ms waiting while compiling lib/tuple.ex
+[profile]     92ms compiling +      0ms waiting while compiling lib/task/supervisor.ex
+[profile]    256ms compiling +      0ms waiting while compiling lib/task/supervised.ex
+[profile]    299ms compiling +      0ms waiting while compiling lib/uri.ex
+[profile]    312ms compiling +      0ms waiting while compiling lib/version.ex
+[profile] Finished deadlock resolution in 0ms
+[profile]    574ms compiling +   7246ms waiting for module Calendar while compiling lib/calendar/iso.ex
+[profile]    206ms compiling +   7918ms waiting for module Calendar.ISO while compiling lib/calendar.ex
+[profile] Finished cycle resolution in 0ms
+[profile] Finished compilation cycle of 232 modules in 8462ms
+[profile] Finished writing modules to disk in 19ms
+[profile] Finished after compile callback in 0ms
+[profile] Type checked Enumerable in 2ms
+[profile] Type checked Collectable in 2ms
+[profile] Type checked List.Chars in 1ms
+[profile] Type checked JSON.Encoder in 4ms
+[profile] Type checked String.Chars in 1ms
+[profile] Type checked Inspect in 5ms
+[profile] Type checked Inspect.Version.Requirement in 0ms
+[profile] Type checked Calendar in 2ms
+[profile] Type checked String.Chars.Version.Requirement in 0ms
+[profile] Type checked String.Chars.Version in 4ms
+[profile] Type checked Version in 4ms
+[profile] Type checked Calendar.ISO in 39ms
+[profile] Type checked String.Chars.URI in 6ms
+[profile] Type checked Version.Parser in 2ms
+[profile] Type checked Version.InvalidVersionError in 2ms
+[profile] Type checked Version.Requirement in 1ms
+[profile] Type checked Version.InvalidRequirementError in 2ms
+[profile] Type checked Inspect.Version in 0ms
+[profile] Type checked Inspect.URI in 0ms
+[profile] Type checked URI.Error in 2ms
+[profile] Type checked Task.Supervised in 7ms
+[profile] Type checked Tuple in 0ms
+[profile] Type checked Task.Supervisor in 1ms
+[profile] Type checked Task in 5ms
+[profile] Type checked URI in 19ms
+[profile] Type checked PartitionSupervisor in 5ms
+[profile] Type checked System.SignalHandler in 0ms
+[profile] Type checked System.EnvError in 0ms
+[profile] Type checked Registry.Supervisor in 0ms
+[profile] Type checked Registry.Partition in 7ms
+[profile] Type checked Supervisor.Spec in 1ms
+[profile] Type checked System in 21ms
+[profile] Type checked Supervisor in 5ms
+[profile] Type checked Supervisor.Default in 0ms
+[profile] Type checked Inspect.Stream in 0ms
+[profile] Type checked StringIO in 4ms
+[profile] Type checked Enumerable.Stream in 1ms
+[profile] Type checked String.Chars.Float in 0ms
+[profile] Type checked String.Chars.Integer in 0ms
+[profile] Type checked String.Chars.List in 0ms
+[profile] Type checked String.Chars.BitString in 0ms
+[profile] Type checked String.Chars.Atom in 0ms
+[profile] Type checked String in 27ms
+[profile] Type checked Stream in 6ms
+[profile] Type checked Stream.Reducers in 3ms
+[profile] Type checked Registry in 6ms
+[profile] Type checked Set in 1ms
+[profile] Type checked Regex in 5ms
+[profile] Type checked Regex.CompileError in 0ms
+[profile] Type checked File.Stat in 4ms
+[profile] Type checked GenEvent in 14ms
+[profile] Type checked Record.Extractor in 5ms
+[profile] Type checked Record in 3ms
+[profile] Type checked Range in 0ms
+[profile] Type checked Protocol in 13ms
+[profile] Type checked Process in 0ms
+[profile] Type checked Port in 0ms
+[profile] Type checked Path in 3ms
+[profile] Type checked Path.Wildcard in 0ms
+[profile] Type checked Module.Types.Apply in 38ms
+[profile] Type checked OptionParser in 3ms
+[profile] Type checked OptionParser.ParseError in 0ms
+[profile] Type checked Module.Types.Traverse in 3ms
+[profile] Type checked Module.Types.Pattern in 24ms
+[profile] Type checked Node in 4ms
+[profile] Type checked Module.Types.Of in 11ms
+[profile] Type checked Module.Types.Helpers in 14ms
+[profile] Type checked Module.Types.Expr in 15ms
+[profile] Type checked Module.Types in 13ms
+[profile] Type checked Module.Types.Descr in 91ms
+[profile] Type checked Module.ParallelChecker in 20ms
+[profile] Type checked Module.Behaviour in 3ms
+[profile] Type checked Module in 10ms
+[profile] Type checked Map in 2ms
+[profile] Type checked MapSet in 0ms
+[profile] Type checked Inspect.MapSet in 0ms
+[profile] Type checked Collectable.MapSet in 0ms
+[profile] Type checked Enumerable.MapSet in 0ms
+[profile] Type checked Macro.Env in 1ms
+[profile] Type checked File in 9ms
+[profile] Type checked List in 3ms
+[profile] Type checked List.Chars.Float in 0ms
+[profile] Type checked List.Chars.Integer in 0ms
+[profile] Type checked List.Chars.List in 0ms
+[profile] Type checked List.Chars.BitString in 0ms
+[profile] Type checked List.Chars.Atom in 0ms
+[profile] Type checked Macro in 43ms
+[profile] Type checked Kernel in 18ms
+[profile] Type checked Keyword in 5ms
+[profile] Type checked Kernel.Typespec in 15ms
+[profile] Type checked Kernel.SpecialForms in 0ms
+[profile] Type checked Kernel.ParallelRequire in 0ms
+[profile] Type checked Kernel.ParallelCompiler in 8ms
+[profile] Type checked JSON in 0ms
+[profile] Type checked JSON.DecodeError in 0ms
+[profile] Type checked Kernel.Utils in 7ms
+[profile] Type checked JSON.Encoder.DateTime in 0ms
+[profile] Type checked JSON.Encoder.NaiveDateTime in 0ms
+[profile] Type checked Kernel.ErrorHandler in 1ms
+[profile] Type checked Kernel.LexicalTracker in 3ms
+[profile] Type checked JSON.Encoder.Time in 0ms
+[profile] Type checked JSON.Encoder.Duration in 0ms
+[profile] Type checked JSON.Encoder.Date in 0ms
+[profile] Type checked Kernel.CLI in 7ms
+[profile] Type checked JSON.Encoder.Map in 0ms
+[profile] Type checked JSON.Encoder.Float in 0ms
+[profile] Type checked JSON.Encoder.Integer in 0ms
+[profile] Type checked JSON.Encoder.List in 0ms
+[profile] Type checked JSON.Encoder.BitString in 0ms
+[profile] Type checked JSON.Encoder.Atom in 0ms
+[profile] Type checked IO.ANSI.Docs in 5ms
+[profile] Type checked IO.Stream in 2ms
+[profile] Type checked Enumerable.IO.Stream in 1ms
+[profile] Type checked Collectable.IO.Stream in 1ms
+[profile] Type checked IO.StreamError in 0ms
+[profile] Type checked Inspect.Macro.Env in 0ms
+[profile] Type checked Inspect.Range in 0ms
+[profile] Type checked Inspect.Reference in 0ms
+[profile] Type checked Inspect.Any in 0ms
+[profile] Type checked IO.ANSI in 1ms
+[profile] Type checked Inspect.PID in 0ms
+[profile] Type checked Inspect.Port in 0ms
+[profile] Type checked Inspect.Function in 2ms
+[profile] Type checked Inspect.Regex in 0ms
+[profile] Type checked Inspect.Float in 0ms
+[profile] Type checked Integer in 4ms
+[profile] Type checked IO in 4ms
+[profile] Type checked Inspect.Integer in 0ms
+[profile] Type checked Inspect.Map in 0ms
+[profile] Type checked Inspect.Error in 1ms
+[profile] Type checked Inspect.Inspect.Error in 3ms
+[profile] Type checked Enumerable.Range in 1ms
+[profile] Type checked Inspect.Tuple in 0ms
+[profile] Type checked Inspect.Algebra in 13ms
+[profile] Type checked Enumerable.Function in 0ms
+[profile] Type checked Inspect.List in 1ms
+[profile] Type checked Enumerable.Map in 0ms
+[profile] Type checked Inspect.BitString in 0ms
+[profile] Type checked Enumerable.List in 0ms
+[profile] Type checked Inspect.Atom in 0ms
+[profile] Type checked Inspect.Opts in 2ms
+[profile] Type checked Inspect.HashSet in 6ms
+[profile] Type checked Collectable.HashSet in 0ms
+[profile] Type checked Enumerable.HashSet in 0ms
+[profile] Type checked ErlangError in 11ms
+[profile] Type checked File.LinkError in 0ms
+[profile] Type checked File.RenameError in 0ms
+[profile] Type checked File.CopyError in 0ms
+[profile] Type checked File.Error in 0ms
+[profile] Type checked Enum.EmptyError in 0ms
+[profile] Type checked HashSet in 4ms
+[profile] Type checked Enum.OutOfBoundsError in 0ms
+[profile] Type checked Inspect.HashDict in 3ms
+[profile] Type checked Collectable.HashDict in 0ms
+[profile] Type checked Enumerable.HashDict in 0ms
+[profile] Type checked MissingApplicationsError in 2ms
+[profile] Type checked Enum in 29ms
+[profile] Type checked KeyError in 0ms
+[profile] Type checked Base in 33ms
+[profile] Type checked Protocol.UndefinedError in 0ms
+[profile] Type checked UnicodeConversionError in 6ms
+[profile] Type checked HashDict in 7ms
+[profile] Type checked FunctionClauseError in 0ms
+[profile] Type checked Agent.Server in 0ms
+[profile] Type checked BadArityError in 0ms
+[profile] Type checked Code.LoadError in 2ms
+[profile] Type checked TryClauseError in 0ms
+[profile] Type checked CondClauseError in 0ms
+[profile] Type checked WithClauseError in 0ms
+[profile] Type checked CaseClauseError in 0ms
+[profile] Type checked MatchError in 0ms
+[profile] Type checked BadBooleanError in 0ms
+[profile] Type checked Enumerable.GenEvent.Stream in 0ms
+[profile] Type checked UndefinedFunctionError in 2ms
+[profile] Type checked BadMapError in 0ms
+[profile] Type checked BadFunctionError in 0ms
+[profile] Type checked Kernel.TypespecError in 0ms
+[profile] Type checked GenEvent.Stream in 0ms
+[profile] Type checked CompileError in 0ms
+[profile] Type checked GenServer in 3ms
+[profile] Type checked Function in 0ms
+[profile] Type checked TokenMissingError in 0ms
+[profile] Type checked SyntaxError in 0ms
+[profile] Type checked MismatchedDelimiterError in 0ms
+[profile] Type checked SystemLimitError in 0ms
+[profile] Type checked ArgumentError in 0ms
+[profile] Type checked RuntimeError in 0ms
+[profile] Type checked Float in 1ms
+[profile] Type checked ArithmeticError in 0ms
+[profile] Type checked File.Stream in 2ms
+[profile] Type checked Collectable.File.Stream in 0ms
+[profile] Type checked Enumerable.File.Stream in 3ms
+[profile] Type checked DynamicSupervisor in 10ms
+[profile] Type checked Config.Reader in 0ms
+[profile] Type checked Exception in 8ms
+[profile] Type checked Config.Provider in 1ms
+[profile] Type checked Collectable.Map in 0ms
+[profile] Type checked Config in 0ms
+[profile] Type checked Collectable.BitString in 0ms
+[profile] Type checked Collectable.List in 0ms
+[profile] Type checked Dict in 7ms
+[profile] Type checked Code.Typespec in 2ms
+[profile] Type checked Code.Normalizer in 6ms
+[profile] Type checked Code.Identifier in 2ms
+[profile] Type checked Code in 6ms
+[profile] Type checked Calendar.UTCOnlyTimeZoneDatabase in 0ms
+[profile] Type checked DateTime in 8ms
+[profile] Type checked Code.Fragment in 13ms
+[profile] Type checked Calendar.TimeZoneDatabase in 0ms
+[profile] Type checked Code.Formatter in 27ms
+[profile] Type checked NaiveDateTime in 5ms
+[profile] Type checked String.Chars.DateTime in 0ms
+[profile] Type checked Inspect.DateTime in 0ms
+[profile] Type checked String.Chars.Time in 0ms
+[profile] Type checked Inspect.NaiveDateTime in 0ms
+[profile] Type checked Inspect.Time in 0ms
+[profile] Type checked String.Chars.NaiveDateTime in 0ms
+[profile] Type checked Time in 2ms
+[profile] Type checked Date.Range in 0ms
+[profile] Type checked Inspect.Duration in 0ms
+[profile] Type checked Duration in 1ms
+[profile] Type checked Enumerable.Date.Range in 1ms
+[profile] Type checked Inspect.Date in 0ms
+[profile] Type checked Inspect.Date.Range in 0ms
+[profile] Type checked String.Chars.Date in 0ms
+[profile] Type checked Bitwise in 0ms
+[profile] Type checked Behaviour in 0ms
+[profile] Type checked Date in 4ms
+[profile] Type checked Application in 1ms
+[profile] Type checked Atom in 0ms
+[profile] Type checked Agent in 1ms
+[profile] Type checked Access in 5ms
+[profile] Finished group pass check of 232 modules in 305ms
